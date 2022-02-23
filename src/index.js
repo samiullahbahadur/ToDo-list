@@ -12,7 +12,7 @@ class TodoTask {
   }
 }
 
-class TaskList {
+class TaskLisk {
   constructor() {
     this.tasks = [];
   }
@@ -101,7 +101,7 @@ class TaskList {
   }
 }
 
-const myTasks = new TaskList();
+const myTasks = new TaskLisk();
 
 document.addEventListener('DOMContentLoaded', () => {
   myTasks.getFromLocal(myTasks.tasks);

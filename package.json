@@ -1,5 +1,5 @@
 {
-  "name": "to-do-list-app",
+  "name": "webpack-exercise",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -13,13 +13,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ridwanediallo/To-do-List-App.git"
+    "url": "git+https://github.com/ridwanediallo/webpack-exercise.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ridwanediallo/To-do-List-App/issues"
+    "url": "https://github.com/ridwanediallo/webpack-exercise/issues"
   },
   "homepage": "https://github.com/ridwanediallo/webpack-exercise#readme",
   "devDependencies": {
