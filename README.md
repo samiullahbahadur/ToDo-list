@@ -8,22 +8,19 @@ In this project, we can create our daily todo lists
 
 Additional description about the project and its features.
 
-# Getting Started
-
-To get a local copy up and running follow these simple steps.
-
-- You can clone this repo by typing on your terminal.<pre><code>git clone https://github.com/samiullahbahadur/Todo_list </code></pre>
-- Type <pre><code>cd To-Do-List</code></pre> to access the project on the terminal
-
 ## Built With
 
 - HTML and CSS
 - Mostly JavaScript
 
-## Getting Started
+# Getting Started
 
-To get a local copy up and running follow these simple example steps.
-Clone the repository using git clone and pasting the following link git@github.com:samiullahbahadur/ToDo-list.git.
+To get a local copy up and running follow these simple steps.
+
+- You can clone this repo by typing on your terminal.<pre><code>git clone https://github.com/samiullahbahadur/ToDo-list
+  </code></pre>
+- Type <pre><code>cd ToDo-list
+  </code></pre> to access the project on the terminal
 
 ### Prerequisites
 
