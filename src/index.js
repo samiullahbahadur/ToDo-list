@@ -5,8 +5,8 @@ const inputTodo = document.querySelector('.add-todo');
 const addTodoBtn = document.querySelector('.submit');
 
 class TodoTask {
-  constructor(desp, arr, done = false) {
-    this.desp = desp;
+  constructor(description, arr, done = false) {
+    this.description = description;
     this.index = arr.length;
     this.done = done;
   }
@@ -38,7 +38,7 @@ class TaskLisk {
           <input type="checkbox" class="checkbox" ${el.done ? 'checked' : ''}>
           <input type='text' class='todo ${
             el.done ? 'line-through' : ''
-          }' value='${el.desp}'>
+          }' value='${el.description}'>
           </div>
           <div>
           <i class="fa-solid fa-ellipsis-vertical icon-dots"></i>
@@ -68,9 +68,9 @@ class TaskLisk {
     });
   };
 
-  addTodo(desp, tasks) {
-    if (desp !== '') {
-      const todoItems = new TodoTask(desp, tasks);
+  addTodo(description, tasks) {
+    if (description !== '') {
+      const todoItems = new TodoTask(description, tasks);
       this.tasks.push(todoItems);
     }
 
